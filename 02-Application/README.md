@@ -25,29 +25,84 @@
 
 ### 量子硬件架构
 
-- **超导量子计算** - IBM、Google 采用的量子比特技术路线
-- **离子阱量子计算** - IonQ、Quantinuum 采用的量子比特技术路线，全连接架构
-- **中性原子量子计算** - Infleqtion、Pasqal、QuEra 采用的可扩展技术路线
-- **光量子计算** - PsiQuantum 采用的技术路线
+#### 超导量子计算
+- IBM、Google 采用的量子比特技术路线
+- 量子比特类型：Transmon 量子比特
+- 冷却温度：接近绝对零度（15mK）
+- 优势：扩展性好、门速度快
+- 代表处理器：IBM Eagle、Heron、Google Sycamore
+
+#### 离子阱量子计算
+- IonQ、Quantinuum 采用的量子比特技术路线
+- 量子比特类型：电离镱原子（Yb+）或钡离子
+- 囚禁方式：线性离子阱
+- 优势：全连接架构、高保真度（99.99%+）、长相干时间
+- 代表系统：IonQ Aria、Forte、Quantinuum H 系列
+
+#### 中性原子量子计算
+- Infleqtion、Pasqal、QuEra 采用的可扩展技术路线
+- 量子比特类型：里德堡原子
+- 优势：可扩展至数百万量子比特、可编程连接
+- 应用：量子计算与量子传感
+
+#### 光量子计算
+- PsiQuantum 采用的技术路线
+- 量子比特类型：光子
+- 优势：室温运行、量子比特不易退相干
 
 ### 量子算法应用
 
-- [Qiskit 教程](https://docs.quantum.ibm.com/tutorials) - 端到端示例，解决常见量子计算用例
-- [量子机器学习](https://pennylane.ai) - 量子与经典机器学习结合的应用
-- [量子化学计算](https://github.com/quantumlib/OpenFermion) - 使用 OpenFermion 进行量子化学模拟
-- [TensorFlow Quantum](https://www.tensorflow.org/quantum) - 量子机器学习的深度学习框架
+#### 量子算法实现平台
+- [Shor 算法实现](https://quantumalgorithmzoo.org/) - 质因数分解算法
+- [Grover 算法实现](https://quantumalgorithmzoo.org/) - 量子搜索算法
+- [QAOA 实现](https://quantumai.google/cirq/examples#qaoa) - 组合优化算法
+- [HHL 算法](https://arxiv.org/abs/0811.3171) - 线性方程组求解
+
+#### 量子机器学习
+- [TensorFlow Quantum](https://www.tensorflow.org/quantum) - 量子与深度学习结合
+- [PennyLane QML](https://pennylane.ai) - 量子机器学习框架
+- [量子生成模型](https://pennylane.ai/blog/) - 量子增强的生成式 AI
+
+#### 量子化学与材料科学
+- [OpenFermion](https://github.com/quantumlib/OpenFermion) - 量子化学计算开源工具
+- [分子模拟](https://pennylane.ai) - 药物研发和材料设计
 
 ### 错误纠正与容错
 
-- [Qiskit 验证工具](https://docs.quantum.ibm.com/verify) - 量子电路验证与测试
-- [Qualtran 项目](https://github.com/quantumlib/Qualtran) - 容错量子计算研究工具
+#### 最新研究进展
+- [量子 LDPC 码快速解码](https://ionq.com/blog) - IonQ 关于量子 LDPC 码的快速软件解码研究
+- [Walking Cat 架构](https://ionq.com/blog) - 容错离子阱量子计算架构蓝图（2026年4月）
+- [双物种原子纠错](https://www.infleqtion.com) - Infleqtion 先进纠错平台技术
+
+#### 容错路线图
+- IBM Quantum 路线图：2028 年实现 100,000 物理量子比特
+- Infleqtion 路线图：2028 年实现 100+ 逻辑量子比特
+- IonQ：99.99% 双量子比特门保真度
 
 ### 实际应用场景
 
-- **量子化学** - 分子模拟、药物研发
-- **优化问题** - 物流优化、金融投资组合优化
-- **量子机器学习** - 数据分类、模式识别
-- **密码安全** - 量子密钥分发、后量子密码学
+#### 金融行业
+- [量子投资组合优化](https://ionq.com/blog) - IonQ 与华尔街头部公司合作
+- [量子蒙特卡洛方法](https://ionq.com/blog) - 金融建模
+
+#### 汽车与物流
+- [量子优化调度](https://ionq.com/blog) - IonQ 与 Einride 合作优化电动货运
+- [自动驾驶优化](https://ionq.com/blog) - 量子计算在自动驾驶中的应用
+
+#### 航空航天
+- [量子计算流体动力学](https://pennylane.ai/blog/) - PennyLane 与 Rolls-Royce、AMD 合作
+- [量子导航](https://www.q-ctrl.com) - Q-CTRL Ironstone Opal GPS 拒止环境导航
+
+#### 化学与制药
+- [分子模拟](https://pennylane.ai) - 药物发现和材料科学
+- [催化剂设计](https://pennylane.ai) - 工业化学优化
+
+### 量子云平台
+
+- [IBM Quantum Platform](https://quantum.cloud.ibm.com) - 云端量子计算服务
+- [IonQ Cloud](https://ionq.com/cloud) - IonQ 量子云平台
+- [Amazon Braket](https://aws.amazon.com/braket) - AWS 量子云服务
+- [Azure Quantum](https://azure.microsoft.com/quantum) - 微软 Azure 量子云服务
 
 ---
 
