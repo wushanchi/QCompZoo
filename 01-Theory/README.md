@@ -18,7 +18,7 @@
 
 - [Qiskit 官方文档](https://docs.quantum.ibm.com/) - IBM 官方 Qiskit 量子编程框架文档，包含快速入门、教程和 API 参考
 - [Cirq 官方文档](https://quantumai.google/cirq) - Google 量子编程框架 Cirq 的完整文档和教程
-- [Cirq GitHub 仓库](https://github.com/quantumlib/Cirq) - Python 框架，用于创建、编辑和运行 NISQ 量子电路
+- [Cirq GitHub 仓库](https://github.com/quantumlib/Cirq) - Python 框架，用于创建、编辑和运行 NISQ 量子电路，5k+ stars
 - [PennyLane 官方网站](https://pennylane.ai) - 量子机器学习框架，支持多种量子计算平台
 - [IBM 量子学习平台](https://quantum.cloud.ibm.com/learning) - IBM 官方量子计算学习资源
 
@@ -31,17 +31,47 @@
 
 ### 算法与理论
 
-- [Shor 算法](https://en.wikipedia.org/wiki/Shor%27s_algorithm) - 大数质因数分解的量子算法
-- [Grover 算法](https://en.wikipedia.org/wiki/Grover%27s_algorithm) - 量子搜索算法
+- [Shor 算法](https://en.wikipedia.org/wiki/Shor%27s_algorithm) - 大数质因数分解的量子算法，1994年Peter Shor提出
+- [Grover 算法](https://en.wikipedia.org/wiki/Grover%27s_algorithm) - 量子搜索算法，1996年Lov Grover提出
+- [HHL 算法](https://arxiv.org/abs/0811.3171) - 求解线性系统的量子算法
 - [VQE (变分量子特征值求解器)](https://en.wikipedia.org/wiki/Variational_quantum_eigensolver) - 量子化学计算的经典-量子混合算法
 - [QAOA (量子近似优化算法)](https://en.wikipedia.org/wiki/Quantum_approximate_optimization_algorithm) - 组合优化问题的量子算法
+- [QSVT (量子奇异值变换)](https://arxiv.org/abs/2209.14840) - 统一的量子算法范式
+- [Shadow Tomography](https://arxiv.org/abs/1709.06648) - Scott Aaronson 提出的量子态高效学习技术
+
+### 经典论文与开创性工作
+
+- [BosonSampling](https://arxiv.org/abs/1010.1625) - Scott Aaronson 提出的展示量子优势的方案
+- [PostBQP](https://arxiv.org/abs/quant-ph/0412187) - 后选择量子计算机可解决的问题类
+- [BB84 量子密钥分发](https://ieeexplore.ieee.org/document/1055394) - Bennett 和 Brassard 的开创性量子密码协议，2026年获图灵奖
+- [量子霸权论文](https://nature.com/articles/s41586-019-1666-3) - Google Sycamore 处理器实现量子霸权
 
 ### 开源项目与工具
 
 - [Qiskit GitHub](https://github.com/Qiskit) - IBM 量子计算开源项目集合
-- [Cirq 相关项目 Qualtran](https://github.com/quantumlib/Qualtran) - 容错量子计算
+- [Cirq 相关项目 Qualtran](https://github.com/quantumlib/Qualtran) - 容错量子计算研究工具
 - [Cirq 相关项目 Stim](https://github.com/quantumlib/Stim) - Clifford 运算模拟器
 - [OpenFermion](https://github.com/quantumlib/OpenFermion) - 量子化学计算开源工具
+- [Quantum Algorithm Zoo](https://quantumalgorithmzoo.org/) - 量子算法实现资源汇总
+
+### 量子计算博客与专家
+
+- [Scott Aaronson "Shtetl-Optimized"](https://scottaaronson.blog/) - "The Internet's Most Trusted Quantum Computing Blog Since 2005"，UT Austin 教授，量子信息领域权威
+- [Q-CTRL 技术博客](https://www.q-ctrl.com/blog) - 量子控制技术博客
+- [IonQ 博客](https://ionq.com/blog) - 离子阱量子计算技术博客
+- [PennyLane 博客](https://pennylane.ai/blog/) - 量子机器学习博客
+- [IBM Quantum 博客](https://quantum.cloud.ibm.com/) - IBM 量子计算博客
+
+### 学术期刊与会议
+
+- [Quantum - Open Journal for Quantum Science](https://quantum-journal.org/) - 开放获取量子科学期刊，已发表 2097 篇论文
+- [NIPS/ NeurIPS Quantum Computing Workshop](https://neurips.cc/) - 神经信息处理系统大会量子计算工作坊
+- [QIP (Quantum Information Processing)](https://qip2026.info/) - 量子信息处理顶级会议
+
+### 教科书与教材
+
+- [Michael Nielsen & Isaac Chuang "Quantum Computation and Quantum Information"](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940813.pdf) - 量子计算经典教材（英文版）
+- [Preskill 量子计算笔记](https://theory.caltech.edu/~preskill/ph219/) - Caltech John Preskill 教授的量子计算课程笔记
 
 ---
 
