@@ -1,11 +1,10 @@
-# 03-Products / 产业与产品
-
 本目录收录量子计算产业链相关信息，包括主要公司介绍、商用量子计算机型号、核心技术参数等。
 
 ## 主要公司
 
-- **IBM Quantum** — 超导量子计算领导者，拥有 Quantum System One 和 Eagle、Heron 等处理器系列
+- **IBM Quantum** — 超导量子计算领导者，拥有 Quantum System One 和 Eagle、Heron、Nighthawk 等处理器系列
 - **Google Quantum AI** — Sycamore 处理器，宣称量子霸权
+- **Microsoft Quantum** — Majorana 1 拓扑量子芯片，突破性材料 topoconductor
 - **IonQ** — 离子阱量子计算，拥有 Tempo、Forte Enterprise、Forte、Aria、Harmony 等产品线
 - **Quantinuum** — 离子阱量子计算综合平台，H 系列处理器
 - **Infleqtion** — 中性原子量子计算，Sqale 量子计算机
@@ -29,6 +28,48 @@
 
 ### 公司与产品
 
+#### IBM Quantum（超导量子计算）
+- [IBM Quantum 官网](https://www.ibm.com/quantum) - 超导量子计算机产品
+- [IBM Quantum 路线图](https://www.ibm.com/quantum/roadmap) - 量子计算发展路线图
+- [IBM Quantum 文档](https://docs.quantum.ibm.com/) - 完整技术文档
+
+**产品线：**
+- **Quantum System One** - 商业量子系统
+- **Quantum Nighthawk（夜鹰）** - IBM 迄今最先进的量子处理器，预计2025年底交付
+- **Eagle 处理器** - 127 量子比特
+- **Heron 处理器** - 最新一代量子处理器，QV 512+
+- **Quantum Loon（潜鸟）** - 实验型处理器，首次展示容错量子运算所需全部关键元件
+- **Quantum Explorer** - 量子研究平台
+
+**2026 路线图与重大突破：**
+- **2026 年底前实现量子优势**：IBM 宣布在实现量子优势方面取得根本性进展
+- **2029 年实现容错量子计算**：明确技术里程碑
+- **Quantum Nighthawk**：即将交付用户，为迄今最先进处理器
+- **Quantum Loon**：首次证明 IBM 已具备发展容错量子运算的所有关键处理器元件
+- **路线图**：2028 年 100,000+ 物理量子比特
+
+**量子体积(QV)：**
+- Heron 处理器：QV 512+
+
+#### Microsoft Quantum（拓扑量子计算）
+- [Azure Quantum 概述](https://azure.microsoft.com/zh-cn/solutions/quantum-computing/network/) - Microsoft 量子计算网络
+- [Microsoft Quantum 官网](https://www.microsoft.com/quantum) - 量子计算产品
+
+**Majorana 1 量子芯片（2026）：**
+- **世界首个拓扑核心量子芯片**：使用突破性材料 topoconductor 制造
+- **技术突破**：实现一种新的物质态，有望将实用量子计算机时间线缩短至数年（而非数十年）
+- **意义**：拓扑量子比特具有天然的抗噪声能力，是实现大规模容错量子计算的有力候选
+- [Microsoft Majorana 1 详情](https://azure.microsoft.com/zh-cn/solutions/quantum-computing/network/) - Azure Quantum 官方介绍
+
+#### Google Quantum AI（超导量子计算）
+- [Google Cirq 官网](https://quantumai.google/cirq) - 量子编程框架和 Sycamore 处理器信息
+- [Google Quantum Research](https://research.google/teams/applied-science/quantum/) - 研究论文和资源
+
+**Sycamore 处理器：**
+- 53 量子比特
+- 2019 年宣称实现量子霸权
+- 200 秒完成经典计算机需 10,000 年的任务
+
 #### IonQ（离子阱量子计算）
 - [IonQ 技术官网](https://www.ionq.com/technology) - 离子阱量子计算机技术参数和产品信息
 - [IonQ 博客](https://ionq.com/blog) - 技术文章和最新进展（100+ 篇文章）
@@ -51,10 +92,10 @@
 
 **最新进展（2025-2026）：**
 - 提前实现 #AQ 64 里程碑
-- 发布 Walking Cat 容错架构蓝图
+- 发布 Walking Cat 容错架构蓝图（2026年4月）
 - 实现 99.99% 双量子比特门保真度
 - 与 Einride 合作量子优化货运调度
-- 与华尔街合作量子投资组合优化
+- 与华尔街头部公司合作量子投资组合优化
 
 #### Q-CTRL（量子控制软件）
 - [Q-CTRL 官网](https://www.q-ctrl.com) - 量子控制产品和技术信息
@@ -108,30 +149,6 @@
 - 完全连接性
 - 高精度量子门操作
 
-#### IBM Quantum（超导量子计算）
-- [IBM Quantum 官网](https://www.ibm.com/quantum) - 超导量子计算机产品
-- [IBM Quantum 路线图](https://www.ibm.com/quantum/roadmap) - 量子计算发展路线图
-- [IBM Quantum 文档](https://docs.quantum.ibm.com/) - 完整技术文档
-
-**产品线：**
-- **Quantum System One** - 商业量子系统
-- **Eagle 处理器** - 127 量子比特
-- **Heron 处理器** - 最新一代量子处理器
-- **Quantum Explorer** - 量子研究平台
-
-**量子体积(QV)：**
-- Heron 处理器：QV 512+
-- 最新路线图：2028 年 100,000+ 物理量子比特
-
-#### Google Quantum AI（超导量子计算）
-- [Google Cirq 官网](https://quantumai.google/cirq) - 量子编程框架和 Sycamore 处理器信息
-- [Google Quantum Research](https://research.google/teams/applied-science/quantum/) - 研究论文和资源
-
-**Sycamore 处理器：**
-- 53 量子比特
-- 2019 年宣称实现量子霸权
-- 200 秒完成经典计算机需 10,000 年的任务
-
 #### 其他量子计算公司
 
 | 公司 | 技术路线 | 官网 |
@@ -150,15 +167,35 @@
 | IBM Quantum Platform | IBM 超导 | [quantum.cloud.ibm.com](https://quantum.cloud.ibm.com) |
 | IonQ Cloud | IonQ 离子阱 | [ionq.com/cloud](https://ionq.com/cloud) |
 | Amazon Braket | IonQ, Rigetti, D-Wave, OQC | [aws.amazon.com/braket](https://aws.amazon.com/braket) |
-| Azure Quantum | IonQ, Honeywell, Q-CTRL | [azure.microsoft.com/quantum](https://azure.microsoft.com/quantum) |
+| Azure Quantum | IonQ, Honeywell, Q-CTRL, Microsoft | [azure.microsoft.com/quantum](https://azure.microsoft.com/quantum) |
 | Google Quantum Computing Service | Google Sycamore | [quantumai.google](https://quantumai.google) |
+| qBraid | 24+ QPUs and simulators | [qbraid.com](https://www.qbraid.com) |
+
+### 量子计算公司股价与市场（2026）
+
+| 公司 | 代码 | 2025-2026 股价涨幅 | 2026 预计收入 |
+|------|------|-------------------|--------------|
+| IonQ | NYSE:IONQ | +43% | 超 5 亿美元 |
+| Rigetti Computing | NASDAQ:RGTI | +545% | 约 6 亿美元 |
+| D-Wave Quantum | NYSE:QBTS | +458% | — |
+| Quantum Computing Inc. | NASDAQ:QUBT | +67% | — |
+
+**重大融资：**
+- **Quantum Computing Inc.**：完成 15 亿美元融资，公布规模化量产路线图，股价盘前大涨25%
+
+**2026 量子霸权元年：**
+- IBM 副总裁明确表示：2026 年将是量子计算机在实际任务中超越经典超级计算机的转折点
+- 微软研究院预测：量子优势将在化学模拟领域首现
+- 首批改变行业：金融风控、新材料筛选、密码破译
+- 大型科技巨头正加速构建「量子-AI 混合云」算力平台
 
 ### 性能指标参考
 
 | 公司 | 量子比特类型 | 量子比特数 | 双量子比特门保真度 | 连接性 |
 |------|-------------|-----------|------------------|--------|
-| IBM | 超导 | 1000+ | 99%+ | 部分连接 |
+| IBM | 超导 | 1000+（路线图） | 99%+ | 部分连接 |
 | Google | 超导 | 53-70 | 99%+ | 部分连接 |
+| Microsoft | 拓扑 | 未来架构 | — | — |
 | IonQ | 离子阱 | 35+ | 99.99%+ | 全连接 |
 | Quantinuum | 离子阱 | 32+ | 99.9%+ | 全连接 |
 | Infleqtion | 中性原子 | 100+ | 99%+ | 可编程 |
@@ -181,4 +218,4 @@
 
 ---
 
-*最后更新: 2026-05-07*
+*最后更新: 2026-05-12*
